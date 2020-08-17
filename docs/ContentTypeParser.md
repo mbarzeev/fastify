@@ -58,7 +58,7 @@ fastify.addContentTypeParser('application/json', { parseAs: 'string' }, function
 })
 ```
 
-See [`example/parser.js`](../examples/parser.js) for an example.
+See [`example/parser.js`](https://github.com/fastify/fastify/blob/master/examples/parser.js) for an example.
 
 ##### Custom Parser Options
 + `parseAs` (string): Either `'string'` or `'buffer'` to designate how the incoming data should be collected. Default: `'buffer'`.
